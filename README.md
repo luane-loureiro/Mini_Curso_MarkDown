@@ -1,2 +1,2 @@
-# Mini_Curso_MarkDown
-repositorio para guardar tutoriais e Dicas de MarkDown
+# Mini Curso MarkDown
+Repositorio para guardar tutoriais e Dicas de MarkDown.
