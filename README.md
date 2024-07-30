@@ -28,4 +28,43 @@ Depois você precisa de um aplicativo Markdown capaz de processar o arquivo Mark
 A melhor maneira de começar a usar o Markdown é usá-lo.
 Você nem precisa baixar nada. Existem vários editores Markdown online que você pode usar para tentar escrever em Markdown. Ou você pode usar o próprio GitHub, para criar readme de seus projetos ou a sua página de sobre mim.
 
+## Sintaxe básica
+
+### Criando Títulos 
+
+# Writing in Markdown is not that hard!
+```
+# Writing in Markdown is not that hard!
+```
+## Writing in Markdown is not that hard!
+```
+## Writing in Markdown is not that hard!
+```
+
+### Writing in Markdown is not that hard!
+```
+### Writing in Markdown is not that hard!
+```
+
+#### Writing in Markdown is not that hard!
+```
+#### Writing in Markdown is not that hard!
+```
+
+### Destacando com Negrito
+Para tornar uma frase itálica no Markdown, você pode cercar as palavras com dois asteriscos (**)
+```
+Writing in **Markdown** is not that hard!
+```
+Writing in **Markdown** is not that hard!
+
+
+### Destacando com itálico
+Para tornar uma frase ou palávra itálica no Markdown, você pode cercar as palavras com um sublinhado (_)
+
+```
+Writing in _Markdown_ is not that hard!
+```
+Writing in _Markdown_ is not that hard!
+
 
