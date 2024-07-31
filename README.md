@@ -245,3 +245,27 @@ Opcionalmente, você pode adicionar um título para um link. Isso aparecerá com
 ```
 
 [Google](https://google.com "O mais famoso sistema de buscas")
+
+
+### Imagens
+Para adicionar uma imagem, adicione um ponto de exclamação (!), seguido por texto alt entre colchetes e o caminho ou URL para o recurso de imagem entre parênteses. Opcionalmente, você pode adicionar um título entre aspas após o caminho ou URL.
+
+```
+![Google](https://cdn.iconscout.com/icon/free/png-256/free-google-2690379-2232882.png "Google")
+```
+
+![Google](https://cdn.iconscout.com/icon/free/png-256/free-google-2690379-2232882.png "Google")
+
+## Usando o HTML
+Muitos aplicativos Markdown permitem que você use tags HTML em texto formatado em Markdown. Isso é útil se você preferir certas tags HTML à sintaxe Markdown. Por exemplo, algumas pessoas acham mais fácil usar tags HTML para imagens. Usar HTML também é útil quando você precisa alterar os atributos de um elemento, como especificar a cor do texto ou alterar a largura de uma imagem.
+
+Para usar HTML, coloque as tags no texto do seu arquivo formatado em Markdown.
+
+```
+Esta **palavra** está em negrito. Esta <em>palavra<em> está em itálico.
+
+```
+
+A saída renderizada se parece com isso:
+
+Esta **palavra** está em negrito. Esta <em>palavra<em> está em itálico.
