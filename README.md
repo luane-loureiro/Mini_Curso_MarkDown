@@ -117,7 +117,7 @@ Para criar uma lista não ordenada, adicione traços ( -), asteriscos ( *) ou si
 - segundo item
 - terceiro item
 
-### listas não ordenadas alinhadas
+### listas não ordenadas aninhadas
 Recue um ou mais itens para criar uma lista aninhada.
 
 ```
