@@ -131,5 +131,23 @@ Recue um ou mais itens para criar uma lista aninhada.
   - segundo nivel
       - terceiro nivel
 
+### listas ordenadas e não ordenadas aninhadas
+Você pode aninhar uma lista não ordenada em uma lista ordenada, ou vice-versa.
+
+```
+1. primeiro nivel
+    - segundo nivel
+    - segundo nivel
+      - terceiro nivel
+      - terceiro nivel
+2. primeiro nivel
+```
+
+1. primeiro nivel
+    - segundo nivel
+    - segundo nivel
+      - terceiro nivel
+      - terceiro nivel
+2. primeiro nivel
 
 
