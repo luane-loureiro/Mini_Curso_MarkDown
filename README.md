@@ -90,6 +90,8 @@ Blockquotes podem conter vários parágrafos. Adicione um sinal de maior (>) nas
 > You can do it.
 ```
 > Writing in Markdown is not that hard!
+>
+> You can do it.
 
 ### Listas ordenadas
 Para criar uma lista ordenada, adicione itens de linha com números seguidos por ponto.
