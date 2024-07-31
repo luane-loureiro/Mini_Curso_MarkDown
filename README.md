@@ -28,3 +28,7 @@ Depois você precisa de um aplicativo Markdown capaz de processar o arquivo Mark
 A melhor maneira de começar a usar o Markdown é usá-lo.
 Você nem precisa baixar nada. Existem vários editores Markdown online que você pode usar para tentar escrever em Markdown. Ou você pode usar o próprio GitHub, para criar readme de seus projetos ou a sua página de sobre mim.
 
+## Continue Aprendendo 
+### [Sintaxe básica MarkDown](https://github.com/luane-loureiro/Mini_Curso_MarkDown/blob/main/Sintaxe_basica.md)
+### [Sintaxe HTML para MarkDown](# "Em Breve")
+### [Criando Um ReadMe no GitHub](# "Em Breve")
