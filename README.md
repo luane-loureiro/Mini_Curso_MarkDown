@@ -51,6 +51,14 @@ Você nem precisa baixar nada. Existem vários editores Markdown online que voc�
 #### Writing in Markdown is not that hard!
 ```
 
+### Destacando com itálico
+Para tornar uma frase ou palávra itálica no Markdown, você pode cercar as palavras com um asterisco (*)
+
+```
+Writing in _Markdown_ is not that hard!
+```
+Writing in _Markdown_ is not that hard!
+
 ### Destacando com Negrito
 Para tornar uma frase itálica no Markdown, você pode cercar as palavras com dois asteriscos (**)
 ```
@@ -58,13 +66,68 @@ Writing in **Markdown** is not that hard!
 ```
 Writing in **Markdown** is not that hard!
 
+### Negrito e itálico
+Para tornar uma frase ou palávra em negrito e itálica no Markdown, você pode cercar as palavras com um três asteriscos (***)
+```
+Writing in ***Markdown*** is not that hard!
+```
+Writing in ***Markdown*** is not that hard!
 
-### Destacando com itálico
-Para tornar uma frase ou palávra itálica no Markdown, você pode cercar as palavras com um sublinhado (_)
+### Citações de um paragráfo
+Para criar um blockquote, adicione um sinal de maior (>) antes de um parágrafo.
 
 ```
-Writing in _Markdown_ is not that hard!
+> Writing in Markdown is not that hard!
 ```
-Writing in _Markdown_ is not that hard!
+> Writing in Markdown is not that hard!
+
+### Citações de vários paragráfos
+Blockquotes podem conter vários parágrafos. Adicione um sinal de maior (>) nas linhas em branco entre os parágrafos.
+
+```
+> Writing in Markdown is not that hard!
+>
+> You can do it.
+```
+> Writing in Markdown is not that hard!
+
+### Listas ordenadas
+Para criar uma lista ordenada, adicione itens de linha com números seguidos por ponto.
+
+```
+1. primeiro item
+2. segundo item
+3. terceiro item
+```
+
+1. primeiro item
+2. segundo item
+3. terceiro item
+
+### Listas não ordenadas
+Para criar uma lista não ordenada, adicione traços ( -), asteriscos ( *) ou sinais de mais ( +) na frente dos itens de lista (particularmente costumo isar o traço (-)). 
+
+```
+- primeiro item
+- segundo item
+- terceiro item
+```
+
+- primeiro item
+- segundo item
+- terceiro item
+
+### listas não ordenadas alinhadas
+Recue um ou mais itens para criar uma lista aninhada.
+
+```
+- primeiro nivel
+  - segundo nivel
+      - terceiro nivel
+```
+- primeiro nivel
+  - segundo nivel
+      - terceiro nivel
+
 
 
