@@ -150,4 +150,98 @@ Você pode aninhar uma lista não ordenada em uma lista ordenada, ou vice-versa.
       - terceiro nivel
 2. primeiro nivel
 
+### Linhas Horizontais
+Para criar uma régua horizontal, use três ou mais asteriscos ( ***), traços ( ---) ou sublinhados ( ___) em uma linha isoladamente.
 
+```
+Conteudo 1
+
+---
+
+Conteudo 2
+```
+
+Conteudo 1
+
+---
+
+Conteudo 2
+
+
+### Criando Tabelas
+Você pode criar tabelas com pipes | e hífens -. Hifens são usados para criar o cabeçalho de cada coluna, enquanto as barras verticais separam cada coluna. Você deve incluir uma linha em branco antes da tabela para ela ser construída corretamente.
+As barras verticais em cada extremo da tabela são opcionais.
+As células podem ter largura variada e não precisam estar alinhadas perfeitamente com as colunas. Deve ter no mínimo três hifens em cada coluna da linha do cabeçalho.
+
+```
+
+| titulo 1  | titulo 2 |
+| --------- | ---------|
+| conteudo  | conteudo |
+| conteudo  | conteudo |
+| conteudo  | conteudo |
+| conteudo  | conteudo |
+
+```
+
+| titulo 1  | titulo 2 |
+| --------- | ---------|
+| conteudo  | conteudo |
+| conteudo  | conteudo |
+| conteudo  | conteudo |
+| conteudo  | conteudo |
+
+
+### Blocos de Códigos 
+Você pode criar blocos de código isolados colocando acentos graves triplos ( ``` ) antes e depois do bloco de código. É recomendável colocar uma linha em branco antes e depois dos blocos de código para facilitar a leitura da formação bruta.
+
+````
+
+```
+const sayHello = "Olá Mundo!";
+console.log (sayHello);
+```
+
+````
+
+```
+const sayHello = "Olá Mundo!";
+console.log (sayHello);
+```
+
+Você pode adicionar um identificador de linguagem opcional para habilitar o realce de sintaxe no bloco de código isolado.
+O realce da sintaxe altera a cor e o estilo do código-fonte para facilitar a leitura.
+Por exemplo, para código javaScript do realce de sintaxe:
+
+
+````
+
+```javascript
+const sayHello = "Olá Mundo!";
+console.log (sayHello);
+```
+
+````
+
+```javascript
+const sayHello = "Olá Mundo!";
+console.log (sayHello);
+```
+
+### Links
+Para criar um link, coloque o texto do link entre colchetes (por exemplo, [Google]) e, em seguida, coloque imediatamente o URL entre parênteses (por exemplo, (https://google.com)).
+
+```
+[Google](https://google.com)
+```
+
+[Google](https://google.com)
+
+
+Opcionalmente, você pode adicionar um título para um link. Isso aparecerá como uma dica de ferramenta quando o usuário passar o mouse sobre o link. Para adicionar um título, coloque-o entre aspas após o URL.
+
+```
+[Google](https://google.com"O mais famoso sistema de buscas")
+```
+
+[Google](https://google.com "O mais famoso sistema de buscas")
