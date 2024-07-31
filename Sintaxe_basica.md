@@ -37,11 +37,18 @@ Writing in **Markdown** is not that hard!
 Writing in **Markdown** is not that hard!
 <br><br>
 ## Negrito e itálico
-Para tornar uma frase ou palávra em negrito e itálica no Markdown, você pode cercar as palavras com um três asteriscos (***)
+Para tornar uma frase ou palávra em negrito e itálica no Markdown, você pode cercar as palavras com três asteriscos (***)
 ```
 Writing in ***Markdown*** is not that hard!
 ```
 Writing in ***Markdown*** is not that hard!
+<br><br>
+## Texto Tarchado (riscado)
+Para tornar uma frase ou palávra tarchada no Markdown, você pode cercar as palavras com dois til (~~)
+```
+Writing in ~~Markdown~~ is not that hard!
+```
+Writing in ~~Markdown~~ is not that hard!
 <br><br>
 ## Citações de um paragráfo
 Para criar um blockquote, adicione um sinal de maior (>) antes de um parágrafo.
@@ -63,6 +70,41 @@ Blockquotes podem conter vários parágrafos. Adicione um sinal de maior (>) nas
 >
 > You can do it.
 <br><br>
+## Alertas
+Alertas são uma extensão Markdown baseada na sintaxe blockquote que você pode usar para enfatizar informações críticas. Em GitHub, eles são exibidos com cores e ícones distintos para indicar a importância do conteúdo.
+
+```
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+```
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+<br><br>
+Use alertas apenas quando eles forem cruciais para o sucesso do usuário e limite-os a um ou dois por artigo para evitar sobrecarregar o leitor.
 ## Listas ordenadas
 Para criar uma lista ordenada, adicione itens de linha com números seguidos por ponto.
 
@@ -120,6 +162,20 @@ Você pode aninhar uma lista não ordenada em uma lista ordenada, ou vice-versa.
       - terceiro nivel
 2. primeiro nivel
 <br><br>
+## Listas de tarefas
+Para criar uma lista de tarefas, coloque um hífen e um espaço seguidos de [ ] antes dos itens de lista. Para marcar uma tarefa como concluída, use [x].
+
+```
+- [x] Estudar
+- [ ] fazer exercícios
+- [ ] ter uma aliemntação saldável
+```
+
+- [x] Estudar
+- [ ] fazer exercícios
+- [ ] ter uma aliementação saldável
+
+  <br><br>
 ## Linhas Horizontais
 Para criar uma régua horizontal, use três ou mais asteriscos ( ***), traços ( ---) ou sublinhados ( ___) em uma linha isoladamente.
 
@@ -224,6 +280,17 @@ Para adicionar uma imagem, adicione um ponto de exclamação (!), seguido por te
 ```
 
 ![Google](https://cdn.iconscout.com/icon/free/png-256/free-google-2690379-2232882.png "Google")
+<br><br>
+## Usar emojis
+É possível adicionar um emoji à escrita digitando :EMOJICODE:, dois pontos e, em seguida, o nome do emoji.
+Se você digitar :, uma lista de emojis sugeridos será exibida. A lista será filtrada à medida que você digitar algo. Portanto, assim que encontrar o emoji que estava procurando, pressione Tab ou ENTER para completar o resultado realçado.
+
+```
+:+1:
+```
+:+1:
+
+Eu prefiro(caso esteja usando windows)  apertar a tecla do logotipo do win + tecla ponto (.) para abrir o painel de emojis e escolher algum na lista.
 <br><br>
 ## Usando o HTML
 Muitos aplicativos Markdown permitem que você use tags HTML em texto formatado em Markdown. Isso é útil se você preferir certas tags HTML à sintaxe Markdown. Por exemplo, algumas pessoas acham mais fácil usar tags HTML para imagens. Usar HTML também é útil quando você precisa alterar os atributos de um elemento, como especificar a cor do texto ou alterar a largura de uma imagem.
