@@ -217,6 +217,24 @@ As células podem ter largura variada e não precisam estar alinhadas perfeitame
 | conteudo  | conteudo |
 | conteudo  | conteudo |
 
+Para especificar o tipo de alinhamento que deseja ter nas tabelas, utilize dois pontos : ao lado do campo horizontal de hífens ---, na segunda linha da sua tabela. Veja abaixo:
+
+Alinhado a esquerda: usar : no lado esquerdo (alinhamento padrão)
+Alinhado a direita: usar : no lado direito
+Centralizado: usar : dos dois lados
+
+```
+
+Alinhado a esquerda | Centralizado | Alinhado a direita
+|:--------- | :------: | -------:|
+|Exemplo | Exemplo | Exemplo|
+
+```
+
+Alinhado a esquerda | Centralizado | Alinhado a direita
+| :--------- | :------: | -------: |
+|Exemplo | Exemplo | Exemplo|
+
 <br><br>
 ## Blocos de Códigos 
 Você pode criar blocos de código isolados colocando acentos graves triplos ( ``` ) antes e depois do bloco de código. É recomendável colocar uma linha em branco antes e depois dos blocos de código para facilitar a leitura da formação bruta.
