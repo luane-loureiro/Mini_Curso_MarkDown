@@ -37,15 +37,16 @@ a sintaxe fica assim para uma imagem alinhada a direita, com 40px de altura e la
 ```
 
 <img align="right" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_8jz4QOkMaxNfXVlPJqQdWuOM0UTmgmQ2BA&s" width="40" height="40" />
+<br><br><br><br>
 
 ## Usando links pelo HTML 
-
+<br><br>
 ## Criando tabelas pelo HTML
-
+<br><br>
 ## Detales 
-
+<br><br>
 ## Quebra de linhas ```<br>```
-
+<br><br>
 ## 
 
 
