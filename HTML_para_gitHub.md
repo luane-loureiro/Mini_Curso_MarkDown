@@ -1,4 +1,4 @@
-# Sintax HTML Para GitHub
+# Sintax HTML e CSS inline Para GitHub
 
 ## Tags de Texto - titulos ```<h1>``` e paragrafos ```<p>```
 Você pode criar titulos com sintaxe basica do marckdown, mas ele são padrão alinhado a esquerda. caso queira mudar a centralisaçao de um titulo, vc terá q usar o html com a estilização css in line.
@@ -26,3 +26,29 @@ são aceitas os seguintes tipos de alinhamento no atributo ```align```
 |right  | Alinhamento a Direita |
 |center | Texto centalisado |
 |justify| texto justificado |
+
+
+## tag de imagem ```<img>```
+Você pode adicionar imagens pela sintaxe básica no markdown, mas se quizer modificar os atributos da imagem, como tamanho e alinhamento, podemos usar o html com a estilisação css in line.
+a sintaxe fica assim para uma imagem alinhada a direita, com 40px de altura e largura:
+
+```html
+<img align="right" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_8jz4QOkMaxNfXVlPJqQdWuOM0UTmgmQ2BA&s" width="40" height="40" />
+```
+
+<img align="right" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_8jz4QOkMaxNfXVlPJqQdWuOM0UTmgmQ2BA&s" width="40" height="40" />
+
+## Usando links pelo HTML 
+
+## Criando tabelas pelo HTML
+
+## Detales 
+
+## Quebra de linhas ```<br>```
+
+## 
+
+
+
+
+
